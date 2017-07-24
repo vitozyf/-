@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>畅游峨眉</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" class="ico"/>
+    <!--<link rel="stylesheet" href="css/response.css"/>-->
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/峨眉.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/public.js"></script>
+    <script>
+        $(function(){
+//            $('.inner').fadeOut(1000, function () {
+//                $('.inner').fadeIn(2000, function () {
+//                    $('.inner').fadeOut(3000, function () {
+//                        $('.inner').slideDown(3000)
+//                    })
+//                })
+//            })
+            var json = {
+                'transform':'rotateY('+360+'deg)',
+                'transition': 4+'s'
+            }
+            var obj = {
+                'transform':'rotateX('+360+'deg)',
+                'transition': 6+'s'
+            }
+            var cy ={
+                transform: 'scale('+1.2+')',
+                transition:0.8+'s',
+
+            }
+            var cn ={
+                transform: 'scale('+1+')',
+                transition:0.8+'s',
+
+            }
+            var ca ={
+                transform: 'scale('+1.1+')',
+                transition:0.8+'s',
+                zIndex:9999
+            }
+            var ce ={
+                transform: 'scale('+1+')',
+                transition:0.8+'s',
+                zIndex:0
+            }
+            $(document).on('mouseenter', function () {
+                $('.inner').css(json)
+                $('.inner .cyem').css(obj)
+            })
+            $('.inner').on('mouseenter', function () {
+                $('.inner .cyem').css(cy)
+            })
+            $('.inner').on('mouseleave', function () {
+                $('.inner .cyem').css(cn)
+            })
+            $('.images ul li').on('mouseenter', function () {
+                $(this).css(ca).siblings().css('zIndex',-Infinity);
+            })
+            $('.images ul li').on('mouseleave', function () {
+                $(this).css(ce)
+            })
+//            $(window).scroll(function () {
+//                if($(window).scrollTop()>$('.bg').offset().top){
+////                    $('.images').siblings().slideDown(2000)
+//                    $('.emxj:eq(0)').nextAll().slideDown(2000)
+//                }
+//            })
+            $(window).scroll(function () {
+                if($(window).scrollTop()>$('.middle').offset().top){
+                    $('.emxj:eq(0)').next().slideDown(1500)
+                }
+                if($(window).scrollTop()>$('.inner').offset().top){
+                    $('.images:eq(0)').next().slideDown(1500)
+                }
+                if($(window).scrollTop()>$('.emxj:eq(0)').offset().top){
+                    $('.innerHTML:eq(0)').next().slideDown(1500)
+                }
+                if($(window).scrollTop()>$('.images:eq(0)').offset().top){
+                    $('.emxj:eq(1)').next().slideDown(1500)
+                }
+                if($(window).scrollTop()>$('.innerHTML:eq(0)').offset().top){
+                    $('.images:eq(1)').next().slideDown(1500)
+                }
+                if($(window).scrollTop()>$('.emxj:eq(1)').offset().top){
+                    $('.innerHTML:eq(1)').next().slideDown(1500)
+                }
+            })
+          })
+
+    </script>
+
+</head>
+<body>
+<!--顶部导航部分-->
+<div class="topnav clearfix" id="topnav">
+    <p class="sider-link">
+        <a href="最新优惠.html">* 最新优惠</a>
+        <a href="客房预订.html">* 客房预订</a>
+        <a href="探索己庄.html">* 探索己庄</a>
+    </p>
+    <a href="index.html" class="logo"><img src="images/logo.png" alt=""/></a>
+    <div class="sider-nav">
+        <ul class="clearfix">
+            <li class="serach-toggle">
+                <a href="index.html" class="refresh-btn">
+                    <span class="ico">EN</span>
+                </a>
+            </li>
+            <li class="user-toggle">
+                <a href="javascript:;" class="menu-handle">
+                    <span class="ico">导航</span>
+                    <span class="buger buger-1 trans"></span>
+                    <span class="buger buger-3 trans"></span>
+                </a>
+            </li>
+            <li class="btn-toggle">
+                <a href="javascript:;" class="quickBooking">
+                    <span class="ico">快速预订</span>
+                    <span class="css-box">
+                        <span class="box1"></span>
+                        <span class="box2"></span>
+                        <span class="box3"></span>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--点击导航弹出的快速导航模块-->
+<div class="quicknav">
+    <ul class="navlist">
+        <li>
+            <a href="javascript:;" class="list aboutHotel"><span>关于酒店</span><i></i></a>
+            <dl class="subNavList">
+                <dd><a href="#">酒店介绍</a></dd>
+                <dd><a href="#">酒店理念</a></dd>
+                <dd><a href="#">荣誉资质</a></dd>
+                <dd><a href="#">集团介绍</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="javascript:;" class="list news"><span>新闻咨询</span> <i></i></a>
+            <dl class="subNavList">
+                <dd><a href="新闻咨询.html">最新活动</a></dd>
+                <dd><a href="新闻咨询.html">酒店新闻</a></dd>
+                <dd><a href="新闻咨询.html">行业新闻</a></dd>
+            </dl>
+        </li>
+        <li><a href="客房预订.html" class="list">客房预订 <i></i></a></li>
+        <li><a href="探索己庄.html" class="list">探索己庄 <i></i></a></li>
+        <li><a href="畅游峨眉.html" class="list">畅游峨眉 <i></i></a></li>
+        <li><a href="会员中心.html" class="list">会员中心 <i></i></a></li>
+        <li><a href="联系方式.html" class="list">联系方式 <i></i></a></li>
+        <li><a href="最新优惠.html" class="list">最新优惠 <i></i></a></li>
+    </ul>
+    <div class="nav-service">
+        <a href="服务指南.html"><span class="icon">服务指南</span></a>
+    </div>
+</div>
+<!--二维码-->
+<div class="shade-bg"></div>
+<div class="erweima">
+    <div class="rwm-pic">
+        <img src="images/erm.jpg" alt=""/>
+    </div>
+    <p>扫描此二维码进行预订</p>
+</div>
+
+
+<!--中间部分-->
+<div class="middle">
+    <div class="bg"></div>
+    <div class="inner">
+        <span><img src="images/quan.png" class="quan"/></span>
+        <span class="cyem"><img src="images/cy.png" alt="畅游峨眉" title="畅游峨眉"/></span>
+        <span style="position: absolute;top: 50%;right: -40%;margin-top: -50px;">EMEI
+            <br/>
+        TOUR
+        </span>
+    </div>
+</div>
+<!--畅游峨眉-->
+<div class="emxj">
+    <span class="left">EMEI</span>
+    <span class="cyem">峨眉仙境</span>
+    <span class="right">WONDERLAND</span>
+</div>
+<div class="images dn clearfix">
+    <ul>
+        <li><img src="images/20161282330478578.jpg"/></li>
+        <li><img src="images/20161282330476420.jpg"/></li>
+        <li><img src="images/20161282330488817.jpg"/></li>
+    </ul>
+</div>
+<div class="innerHTML dn">
+    <p>峨眉山（Mount
+        Emei）位于中国四川省乐山市峨眉山市境内，是中国“四大佛教名山”之一，地势陡峭，风景秀丽，素有“峨眉天下秀”之称，山上的万佛顶最高，海拔3099米，高出峨眉平原2700多米。《峨眉郡志》云：“云鬘凝翠，鬒黛遥妆，真如螓首蛾眉，细而长，美而艳也，故名峨眉山。”</p>
+
+    <p>
+        峨眉山处于多种自然要素的交汇地区，区系成分复杂，生物种类丰富，特有物种繁多，保存有完整的亚热带植被体系，有植物3200多种，约占中国植物物种总数的1/10。峨眉山还是多种稀有动物的栖居地，动物种类达2300多种。山路沿途有较多猴群，常结队向游人讨食，为该山一大特色。</p>
+
+    <p>
+        峨眉山宗教文化特别是佛教文化构成了峨眉山历史文化的主体，所有的建筑、造像、法器以及礼仪、音乐、绘画等都展示出宗教文化的浓郁气息。山上多古迹、寺庙，有报国寺、伏虎寺、洗象池、龙门洞、舍身崖、峨眉佛光等胜迹，是中国著名的旅游、休养、避暑目的地之一。</p>
+
+    <p>
+        峨眉山为蚀余山，介于北纬29°16′-29°43′，东经103°10′-103°37′之间，为邛崃山南段余脉，自峨眉平原拔地而起，山体南北延伸，绵延23公里，面积约154平方公里，主要由大峨山、二峨山、三峨山、四峨山4座山峰组成。山的中、下部分布着花岗岩、变质岩及石灰岩，山顶部盖有玄武岩。</p>
+
+    <p>峨眉山-乐山大佛是世界文化与自然双重遗产 ，峨眉山上的古建筑群为全国重点文物保护单位，以峨眉山为主体的峨眉山景区为国家重点风景名胜区 、国家AAAAA级旅游景区 </p>
+</div>
+<div class="emxj dn">
+    <span class="left2">主要景点 MAIN</span>
+    <span class="cyem">主要景点</span>
+    <span class="right">SCENIC SPOTS</span>
+</div>
+<div class="images dn clearfix">
+    <ul>
+        <li><img src="images/2016128233024646.jpg"/></li>
+        <li><img src="images/2016128233037570.jpg"/></li>
+        <li><img src="images/2016128233038600.jpg"/></li>
+    </ul>
+</div>
+<div class="innerHTML dn">
+    <p class="H_head">大峨山</p>
+    <br/>
+
+    <p>大峨山是峨眉山的主峰，海拔3099米，山脉峰峦起伏，重岩叠翠，<br/>
+        山麓至峰顶50余公里，石径盘旋，直上云霄。在金顶有大面积抗风化强的玄武岩覆盖，构成了倾角在10～15度间的平坦山顶面。而在金顶的东侧为古生代碳酸岩，由于流水沿背斜裂隙强烈溶蚀，形成了高达800米的陡崖（舍身崖）和深涧。
+    </p><br/>
+
+    <p class="H_head">二峨山</p>
+    <br/>
+
+    <p>
+        二峨山又名绥山，呈东北—西南走向，由花岗岩、白云岩等构成。主峰形似覆釜，海拔1909米。林木多柳杉、杂木、竹类，建有林场。土产茶叶、竹笋、桐油、生漆等，并产中药材。西麓猪肝洞，为道教名胜。南有紫芸洞，相传是唐吕纯阳修炼处。</p>
+    <br/>
+
+    <p class="H_head">飞来殿</p>
+    <br/>
+
+    <p>在很久以前，在峨眉城北面，有一座从别处飞来的小山峰，人们叫他飞来峰。峨眉山的和尚，请神匠鲁班在飞来峰上修了一座庙。神匠鲁班是有名的能工巧匠，他刻的牛儿能耕田，刻的公鸡能打鸣。他修的这座庙也很精致。</p>
+    <br/>
+</div>
+
+
+
+
+
+
+<!--底部-->
+<div class="footer clearfix">
+    <div class="footer-top clearfix">
+        <div class="footer-top-left fl">
+            <dl>
+                <dt><a href="关于酒店.html">关于酒店</a></dt>
+                <dd><a href="#">酒店介绍</a></dd>
+                <dd><a href="#">酒店理念</a></dd>
+                <dd><a href="#">荣誉资质</a></dd>
+                <dd><a href="#">集团介绍</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="新闻咨询.html">新闻咨询</a></dt>
+                <dd><a href="#">最新活动</a></dd>
+                <dd><a href="#">酒店新闻</a></dd>
+                <dd><a href="#">行业新闻</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="客房预订.html">客房预订</a></dt>
+                <dd><a href="#">豪华园景房</a></dd>
+                <dd><a href="#">豪华湖景房</a></dd>
+                <dd><a href="#">豪华园景驷马房</a></dd>
+                <dd><a href="#">豪华湖景驷马房</a></dd>
+                <dd><a href="#">豪华温泉别墅</a></dd>
+                <dd><a href="#">总统别墅</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="探索己庄.html">探索己庄</a></dt>
+                <dd><a href="#">饕餮大餐</a></dd>
+                <dd><a href="#">滋养水疗</a></dd>
+                <dd><a href="#">会议宴请</a></dd>
+                <dd><a href="#">唯美婚礼</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="畅游峨眉.html">畅游峨眉</a></dt>
+                <dd><a href="#">峨眉仙境</a></dd>
+                <dd><a href="#">主要景点</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="会员中心.html">会员中心</a></dt>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">会员卡</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="联系方式.html">联系方式</a></dt>
+                <dd><a href="#">地图</a></dd>
+                <dd><a href="#">精彩评论</a></dd>
+                <dd><a href="#">在线留言</a></dd>
+            </dl>
+        </div>
+        <div class="footer-top-right fr">
+            <div class="service">
+                <div class="service-guide"><a href="服务指南.html">服务指南 <span></span></a></div>
+                <p class="character"><a href="#">本《宾客服务指南》旨在向您提供实用信息，让您充分享受在度假酒店的美好时光，尽情体验峨眉山的独特美景。</a></p>
+            </div>
+            <div class="promise">
+                <h3>全网最优价承诺</h3>
+                <span></span>
+            </div>
+            <div class="knowmore">
+                <h3>了解更多</h3>
+                <div class="message clearfix">
+                    <input type="text" placeholder="姓名" class="name"/>
+                    <span class="xiexian fl">/</span>
+                    <input type="text" placeholder="电话" class="call"/>
+                    <a href="#" class="message-btn"></a>
+                </div>
+                <p>留下您的称呼以及联系方式我们会将最新优惠信息发送给您</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="bottom-left fl">
+            <img src="images/logo2.png" alt="" class="logo2"/>
+            <p class="foot-A">Add <span>|</span> 中国四川省峨眉山市山湖路南段8号&nbsp;&nbsp;&nbsp;&nbsp;Fax <span>|</span> +86（833）2212885</p>
+            <p class="foot-C">四川蓝光发展股份有限公司 © Copyright 2015 All Right Reserved [蜀ICP备09021700号]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">网站建设：赛门仕博</a></p>
+        </div>
+        <div class="bottom-right fr">
+            <div class="ftel fl">
+                <p class="f">订房热线</p>
+                <p class="tel"><a href="#">0833 221288</a></p>
+            </div>
+            <div class="fsharp fl">
+                <a href="#" class="iconfont a1">
+                    <em class="ibg"></em>
+                    <em class="i"></em>
+                    <!--&#xe63b;-->
+                </a>
+                <a href="#" class="iconfont a2">
+                    <em class="ibg"></em>
+                    <em class="i"></em>
+                    <!--&#xe60f;-->
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--右侧固定栏部分-->
+<div class="dock">
+    <ul class="dockCon">
+        <li class="first">
+            <a href="#">
+                <i class="i1"></i>
+            </a>
+        </li>
+        <li class="second">
+            <a href="#">
+                <i class="i2"></i>
+            </a>
+            <div class="last"><a href="#">0833 2212888</a></div>
+        </li>
+        <li>
+            <a href="#">
+                <i class="i3"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="i4"></i>
+            </a>
+        </li>
+        <!--<li class="last">0833 2212888</li>-->
+    </ul>
+</div>
+
+
+</body>
+</html>

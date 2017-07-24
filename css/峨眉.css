@@ -1,0 +1,111 @@
+.middle {
+    position: relative;
+    height: 942px;
+    padding: 120px 0 0;
+    margin: 0 auto;
+}
+
+.middle .bg {
+    width: 100%;
+    height: 100%;
+    background: url("../images/pbanner3.jpg") no-repeat center center;
+}
+
+.middle .inner {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.inner:hover  {
+    -webkit-transform: scale(1.2);
+    transition: all 0.8s ease-in-out;
+}
+.middle span {
+    display: inline-block;;
+    font: 22px "Î¢ÈíÑÅºÚ";
+    color: #ffffff;
+    line-height: 2.5;
+}
+.middle .quan {
+    width: 30px;
+    height: 30px;
+}
+
+.middle .cyem {
+    margin: 0 60px 0 60px;
+}
+
+.emxj {
+    text-align: center;
+    /*padding: 100px 0 65px;*/
+    padding: 50px 0 65px;
+    position: relative;
+}
+
+.emxj span {
+    color: #666;
+    font-size: 25px;
+}
+
+.emxj .left {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.emxj .left2 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.emxj .right {
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+
+.emxj .cyem {
+    display: inline-block;;
+    width: 30px;
+    line-height: 1.5;
+    font: 30px "Î¢ÈíÑÅºÚ";
+    color: #323232;
+}
+
+.images {
+    /*height: 408px;*/
+    height:100%;
+}
+
+.images li {
+    float: left;
+    width: 33%;
+    height: 33%;
+    position: relative;
+}
+
+.images img {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.innerHTML {
+    width: 950px;
+    margin: 60px auto 0;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 30px 0 50px;
+}
+
+.innerHTML .H_head {
+    font-weight: bold;
+    font-size: 20px;
+    color: #323232;
+    padding: 20px 0 20px;
+    font-weight: 900;
+}
+.dn {
+    display: none;
+}

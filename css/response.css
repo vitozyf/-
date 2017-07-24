@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1440px){
+    .footNav li{ font-size: 13px;}
+    .vb-con .en{ font-size: 50px;}
+    .vb-con .zh{ font-size: 60px;}
+    .about-name .en{ font-size: 65px;}
+    .about-jz{ font-size: 30px;}
+    .about-by{ font-size: 16px;}
+    .newsList .con .t{ font-weight: bold;}
+    .nt-t{ font-weight: bold;}
+    .vip-pc{ width: 65%;}
+    .vipList{ width: 80%;}
+    .lastest-title .t{ font-size: 60px; line-height: 1.2;}
+    .lastest-title .price{ font-size: 30px;}
+    .lastest-bot .name{ font-size: 34px;}
+    .ydbtn{ font-size: 32px;}
+    .roomInner{ width: 926px;}
+    .room-pbanner .title{ font-size: 48px;}
+    .rprice-box .price{ font-size: 80px;}
+    .ledmore-room-list .txt{ font-weight: bold; font-size: 18px;}
+    .serTbox .st1{ font-size: 38px;}
+    .serTbox .st2{ font-size: 16px;}
+    .service-nav{ position: absolute; left: 0px; top: 100px; margin:0px;}
+    .servicePage{ float: none;}
+}
+@media screen and (min-width:1600px){
+    .footBox{ padding: 55px 4% 35px;}
+    .vb-con .en{ font-size: 60px;}
+    .vb-con .zh{ font-size: 70px;}
+    .about-name .en{ font-size: 80px;}
+    .newsList .con .t{ font-size: 22px; height: 62px; margin: 22px 0px; }
+    .nt-t{ font-size: 38px;}
+}
+@media screen and (max-width:1380px){
+    .inewBox .imgBox .txt{ font-size: 16px; padding: 5px 5%;}
+    .iproBox{ padding: 60px 0px 80px;}
+}
+@media screen and (max-width:1240px){
+    .inewBox .imgBox .txt{ font-weight: normal;}
+    .link-item1{ width: 72%;}
+    .link-item2{ width: 28%;}
+    .footBox{ width: 90%; margin: 0px; padding: 55px 5% 35px;}
+    .foot-tel,.foot-contact{ float: none;}
+    .foot-tel{ margin-bottom: 20px;}
+    .brand-inner{ width: 800px;}
+    .brand-t,.brand-c{ margin: 0px 40px;}
+    .newsList .con .t{ margin: 5px 0px 15px; font-size: 16px; height: 45px;}
+    .newPage{ margin: 0px;}
+    .ninfoT .title{ font-size: 34px;}
+    .vip-pcon{ width: 90%;}
+    .w580{ width: 50%;}
+    .exploreC{ width: 90%; margin: 0px auto;}
+    .lastest-bot .name{ font-size: 18px; font-weight: normal;}
+    .roomBox{ width: 1000px;}
+    .service-nav{ width: 30%;}
+    .servicePage{ width: 62%;}
+}
+@media screen and (max-width:1100px){
+    .iproBox{ width: 90%;}
+    .pagec-c,.pagec-img{ float: none; margin-left: 0px; width: 100%;}
+}
+@media screen and (max-width:1024px){
+    .transYT { transform: translateY(0px); -webkit-transform: translateY(0px); opacity: 1; visibility: visible; transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); -webkit-transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
+    .transYT2 { transform: translateY(0px); -webkit-transform: translateY(0px); opacity: 1; visibility: visible; transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); -webkit-transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
+    .transXT { transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; visibility: visible; transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); -webkit-transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
+    .transXT2 { transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; visibility: visible; transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); -webkit-transition: transform 0ms,opacity 0s cubic-bezier(0.445, 0.145, 0.355, 1); transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out;  }
+    .action.transYT { opacity: 1; visibility: visible; transform: translateY(0px); -webkit-transform: translateY(0px); }
+    .action.transYT2 { opacity: 1; visibility: visible; transform: translateY(0px); -webkit-transform: translateY(0px); }
+    .action.transXT { opacity: 1; visibility: visible; transform: translateY(0px); -webkit-transform: translateY(0px); }
+    .action.transXT2 { opacity: 1; visibility: visible; transform: translateY(0px); -webkit-transform: translateY(0px); }
+    .inner{ width: 90%;}
+    .sider-link{ display: none;}
+    .top{ height: 54px; overflow: hidden;}
+    .logo{ margin: 5px auto 0px; width: 94px;}
+    .mtop{ height: 54px;}
+    .sider-nav{ position: static; width: auto; height: auto;}
+    .sider-nav li,.sider-nav li.btn-toggle{ width: auto; border-left: 0px none; border-bottom: 0px none;}
+    .sider-nav li a{ height: 54px; line-height: 54px;}
+    .sider-nav li a:hover{ background-color: transparent;}
+    .sider-nav .serach-toggle{ display: none;}
+    .menu-handler{ position: fixed; left: 0px; top: 0px; width: 22px; z-index: 1300;}
+    .menu-handler .ico{ display: none;}
+    .menu-handler .burger{ top: 21px; height: 2px; left: 20px;}
+    .menu-handler .burger-3{ top: 31px; left: 20px;}
+    .menu-handler.active .burger{ background-color: #fff;}
+    .menu-handler.active .burger-1 { top: 26px; }
+    .menu-handler.active .burger-3 { top: 26px;}
+    .quickBooking-btn{ position: absolute; right: 0px; top: 0px;}
+    .quickBooking-btn .ico{ background:url(../images/wx_i2.png) no-repeat scroll left center; background-size: auto 100%; padding-left: 30px;}
+    .quickBooking-btn .css-box{ display: none;}
+    .pusher-black{ background: none rgba(0,0,0,0.9);}
+    .link-item1{ display: none;}
+    .link-item2{ float: none; width: 100%;}
+    .menuOpen .top{ position: absolute; z-index: inherit;}
+    .menuOpen .menu-handler{ background-color: rgba(0,0,0,0.2);}
+    .menuBox{ right: 0%; width: 100%; height: 100%; transition: transform 0.5s  0s,opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s,visibility 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s; -webkit-transition: -webkit-transform 0.5s 0s,opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s,visibility 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s,-webkit-overflow-scrolling 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;}
+    .bgMenu{ margin: 60px auto; width: 90%;}
+    .subMenu{ margin-bottom: 15px;}
+    .subMenu dd{ margin-bottom: 8px;}
+    .mess-btn{ background:url(../images/more_ico31.png) no-repeat scroll center center #707070;}
+    .fsharp a{ background:none #a0a0a0; border-radius: 50%;}
+    .fsharp a .ibg{ display: none;}
+    .dock{ top: auto; margin-top: 0px; bottom: 3%; height: 116px;}
+    .dockCon li{ margin-bottom: 8px; border-radius: 50%; overflow: hidden; background-color: transparent; display: none;}
+    .dockCon li i{ background-color: #5a5a5a; border-radius: 50%; height: 46px; background-position: center bottom;}
+    .dockCon li:hover i{ background-color: #5a5a5a;}
+    .dockCon .con{ display: none !important;}
+    .dockCon li.first,.dockCon li.last{ display: block;}
+    .bybox .by1, .bybox .by2{ font-size: 38px;}
+    .banner-box{ margin-top: 0px;}
+    /*.banner .slick-active .bimg { -webkit-animation: infinite; animation: infinite; }*/
+    .banner .slick-dots li{ width: 12px; height: 12px; margin-bottom: 5px;}
+    .banner .slick-dots a{ background: none #fff; border-radius: 50%; border: 2px solid #fff;}
+    .banner .slick-dots li.slick-active a{ background: none transparent; }
+    .inewBox{ width: 100%; margin: 0px auto;}
+    .inewBox .t{ padding: 0px 3%;}
+    .inewBox .itemBox{ margin-left: 0px;}
+    .inewBox .imgBox .txt{ left: 0px; padding: 10px 3%; width: 94%;}
+    .inewBox dd{ width: 50%;}
+    .inewBox dd.item3{ display: none;}
+    .iproList dd{ height: auto;}
+    .iproList .item-img{ width: 60%; height: auto; background-image: none !important;}
+    .iproList .item-img .img{ display: block;}
+    .iproList .item-con{ width: 40%; background-color: #fff;}
+    .iproList .align-vertical{ display: none;}
+    .iproList .item-T{ top: 20%;}
+    .iproList dd:hover .item-T{ transform: translateY(0%); -webkit-transform: translateY(0%); opacity: 1; visibility: visible;}
+    .vb-con .en{ margin-top: 0px; font-size: 36px; line-height: 1.4; font-weight: normal;}
+    .vb-con .zh{ font-size: 40px; font-weight: normal;}
+    .vb-con .jz-zh{ font-size: 16px;}
+    .arrow-ico{ background-size: 60%;}
+    .pagenav.fixed{ top: 54px;}
+    .pagenav a{ font-weight: normal;}
+    #vbBox_display_button{ display: block !important;}
+    .video-banner .black-30{ display: none;}
+    .video-banner .vb-con{ display: none;}
+    .about-y{ width: 240px; height: 240px;}
+    .about-y .t{ font-size: 18px;}
+    .about-name{ top: 25%;}
+    .about-name .en{ font-size: 35px;}
+    .about-name .zh{ padding-left: 0px;}
+    .about-jz{ font-size: 18px; right: 0px;}
+    .fixedImg{ background-attachment: inherit;}
+    .concept-DT{ width: 90%; margin-left: auto; margin-right: auto;}
+    .concept-bg:hover{ background:none transparent;}
+    .about-fg-img{ margin: 0px auto;}
+    .concept-t{ font-weight: normal; font-size: 24px; position: relative; left: auto; top: auto; margin: 0px auto 30px; width: 28px;}
+    .w746{ width: 98%;}
+    .brandPage{ width: 100%;}
+    .brand-inner{ width: 100%;}
+    .brand-t{ font-size: 16px; margin: 0px 5%; height: auto;}
+    .brand-t .line{ display: none;}
+    .brand-t .yico{ float: none;}
+    .brand-c{ margin: 0px 5%;}
+    .newbanner{ height: 310px;}
+    .newPaging{ padding: 54px 0px;}
+    .newsList li{ width: 29.33%;}
+    .newsList .item{ background-color: #fff;}
+    .newsList .item .bg{ display: none;}
+    .newsList .img{ float: none; width: 100%;}
+    .newsList .con{ float: none; width: 90%; margin:0px auto; padding: 15px 0px;}
+    .newsList .bot{ position: relative; left: auto; bottom: auto; width: 100%;}
+    .newsList .item .more{ background-image: url(../images/more_i2.png); color: #cfa972;}
+    .ninfoT{ padding: 60px 5% 18px;}
+    .nt-t{ font-size: 28px;}
+    .tb-con .en{ transform: translateY(-50%); -webkit-transform: translateY(-50%); margin-top: 0px;}
+    .tour-PageT{ padding: 60px 0px;}
+    .tour-T .name{ font-size: 24px;}
+    .tour-T .en1, .tour-T .en2{ font-size: 22px; margin-top: 0px; transform: translateY(-50%); -webkit-transform: translateY(-50%);}
+    .tour-C{ width: 90%; margin: 40px auto 0px;}
+    .vip-page{ padding: 60px 0px 120px;}
+    .vip-pc-box{ width: 100%; box-sizing: border-box; padding: 20px 0px 60px 80px;}
+    .vip-pc .title .zh{ font-size: 30px;}
+    .vipList{ padding: 80px 0px;}
+    .vipList li{ width: 32.33%;}
+    .vipList .t{ font-size: 24px; font-weight: normal;}
+    .vip-pcon{ padding: 60px 0px 0px; width: 100%;}
+    .vipbanner{ height:250px;}
+    .vip-t{ background-size: cover; width: 200px; height: 200px; line-height: 200px; left: 50%; margin-left: -100px;}
+    .vip-name{ position: relative; left: auto; top: auto; margin-bottom: 20px;}
+    .vip-name .name{ width: auto; font-size: 30px;}
+    .vip-name .en{ position: relative; top: auto; left: auto;}
+    .vip-img{ width: auto; float: none; margin: 10px 0px 20px;}
+    .w580{width: auto; }
+    .banner-t{ top: 30%;}
+    .banner-t .en{ width: 70px;}
+    .banner-t .en img{ width: 100%;}
+    .banner-t .zh{ font-size: 14px; margin-left: 20px;}
+    .explorePage{ margin: 0px;}
+    .w900{ width: 90%;}
+    .explorelist .black-60{ opacity: 1; visibility: visible; }
+    .ebox{ width: 90%; margin:0px auto;}
+    .ebox .en{ background:none #996847; width: 100px; height: 100px; margin: 0px auto 5px;}
+    .ebox .en img{ width: 100%;}
+    .explorelist .ebox{ left: 5%; top: 50%; margin: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%);  opacity: 1; visibility: visible;}
+    .explorelist li:hover .ebox { opacity: 1; visibility: visible; transform: translateY(-50%); -webkit-transform: translateY(-50%);  }
+    .explore-imgdemo{ margin-top: 0px;}
+    .eibox{ font-size: 24px;}
+    .exploreC{ width: 100%;}
+    .exploreC .pager{ width: 90%; margin: 50px auto 0px;}
+    .exploreC .blackBox{ width: 90%; margin: 0px auto;}
+    .concession-Pimg{ height: 200px;}
+    .concession-item .t{ font-size: 24px;}
+    .concession-list dd .bgfff{ display: none;}
+    .lastest-PT{ top: 0px; padding: 5px 3%; width: 94%;}
+    .lastest-title{ width: 94%; left:3%; top: 70px;}
+    .lastest-title .t{ font-size: 34px;}
+    .lastest-title .price{ font-weight: normal; font-size: 14px;}
+    .lastest-bot{ position: relative; left: auto; bottom: auto; padding: 0px; width: 100%;}
+    .lastest-bot .name{ padding: 15px 5%;}
+    .lastbot-con{ position: relative; right: auto; bottom: auto; padding: 15px 5%;}
+    .ydbtn{ font-size: 18px;}
+    .ydbtn .txt{ background-size: auto 50%;}
+    .roomInner{ width: 100%;}
+    .roomBox{ width: 90%; padding: 50px 0px;}
+    .roomList dd{ height: auto;}
+    .roomList .item-img{ width: 68%; height: auto;}
+    .roomList .item-con{ width: 32%;}
+    .roomList .item-T .name{ font-size: 16px;}
+    .roomList .align-vertical{ display: none;}
+    .roomList .item-img .black-50{ opacity: 1; visibility: visible;}
+    .roomList .pro-price .price{ font-size: 24px;}
+    .roomList dd .more-b,.roomList dd .more-yd{transform:rotateY(0deg); -webkit-transform:rotateY(0deg); -moz-transform:rotateY(0deg); opacity: 1; visibility: visible;}
+    .roomList dd:hover .item-T{ transform: translateY(0%); -webkit-transform: translateY(0%); opacity: 1; visibility: visible;}
+    .room-pbanner{ padding: 150px 5% 25px;}
+    .room-pbanner .title{ font-size: 24px; font-weight: normal;}
+    .room-paging dd{ float: none;}
+    .room-paging .item1,.room-paging .item2{ width: 100%;}
+    .room-info-box{ width: 100%; margin-top: 25px;}
+    .room-pageC{ width: 100%;}
+    .room-pageC h3,.ledmore-room .t{ font-size: 24px;}
+    .ledmore-room-list{ margin-left: -1%;}
+    .ledmore-room-list li{ width: 49%; margin-left: 1%;}
+    .ledmore-room-list li:hover .img{transform: none; -webkit-transform:none; }
+    .pbanner4 .banner-t{ top: 5%;}
+    .contactPage{ width: 100%; margin: 0px auto; padding: 50px 0px 20px;}
+    .map{ height: 300px; width: 90%; margin: 0px auto;}
+    .map-box{ margin-bottom: 50px;}
+    .map-box dd{ float: none; height: auto; width: 100%;}
+    .jz-map-btn{ padding-bottom: 20px;}
+    .jz-map-list .ico{ width: 25px;}
+    .jz-message .banner-t{ left: 2%;}
+    .jz-message .banner-t .en{ width: 30px;}
+    .message-page-box{ width: 80%;}
+    .messageList .c{ float: none; width: 80%; margin: 0px 0px 0px 5%; overflow: hidden;}
+    .messageList .c .ico{ display: none;}
+    .messageList .t{ float: none; width: 80%; margin: 15px 0px 0px 10%;}
+    .jz-mess-form{ width: 100%;}
+    .service-nav{ width: 100%; float: none; margin: 20px auto; box-sizing: border-box;}
+    .service-nav li{ float: left; width: 50%; padding: 5px 0px;}
+    .servicePage{ width: 100%; float: none;}
+    .serTbox .st1,.serTbox .st3{ font-weight: normal;}
+    .serTbox .st1{ font-size: 24px;}
+    .servicePage .pageC h3{ font-size: 24px;}
+    .jz-promise-bg{ background: none rgba(0,0,0,0.1);}
+    .jz-promise-box{ margin:25px 0px 0px -10px;}
+    .jz-promise-boxT{ margin:0;}
+    .jz-promise-box .sjico{ background: none transparent; width: 100%; height: 25px; left: 0%; display: block; margin-left: 0px; top: -22px;}
+    .promise .sico,.rprice-bot .sico{ right: auto; top: 0; left: 0; height: 100%;}
+    .promise .sico{ width: 120%;}
+    .rprice-bot .sico{ width: 130%;}
+    .jz-promise-box,.jz-promise-boxT{ left: 5% !important; margin-left: 0; width: 84%; padding:20px 3%;}
+}
+@media screen and (max-width:860px){
+    .inewBox{ width: 94%;}
+    .inewBox dd{ float: none; width: 100%; margin-top: 20px;}
+    .inewBox dd .t{ background-color: #fff;}
+    .iledmore{ display: block;}
+    .iproBox{ padding: 0px 0px 20px; width: 94%;}
+    .iproList .item-T{ top: 15%;}
+    .foot{ border-top:0px none;}
+    .foot-tel{ width: 280px; margin: 0px auto 20px;}
+    .foot-contact{ border-top: 1px solid #626262; padding: 20px 0px 0px;}
+    .foot-contact .flogo,.foot-A{ display: none;}
+    .foot-C{ text-align: center; font-size: 14px;}
+    .fA{ display: block; margin-left: 0px;}
+    .pagenav a{ padding: 0px 5%;}
+    .about-y{ width: 180px; height: 180px;}
+    .about-y .t{ font-size: 14px; width: 16px; margin: 20px auto;}
+    .aboutPC{ width: 90%;}
+    .newsList li{ width: 45.5%;}
+    .nt-t{ font-size: 24px;}
+    .tb-con .title{ width: 40px;}
+    .tb-con .ico{ width: 14px; height: 14px; margin-top: -10px; left: -300%;}
+    .tb-con .en{ font-size: 20px; right: -300%;}
+    .vipList ul{ margin-left: -5%;}
+    .vipList li{ margin-left:5%; width: 45%;}
+    .banner-t .en{ width: 60px;}
+    .ebox .en{ width: 80px; height: 80px;}
+    .explore-tbl td{ width: 100% !important; display: block; box-sizing: border-box; margin-top: 0px;}
+    .concession-item{ width: 90%;}
+    .concession-item .title{ padding-right: 0px; margin-bottom: 10px;}
+    .concession-item .btn-con{ position: relative; right: auto; top: auto; width: 100%; line-height: 40px;}
+    .concession-item a.concession-btn{ height: 40px; line-height: 40px; width: 74px; font-size: 12px;}
+    .lastest-title .t{ font-size: 24px;}
+    .lastest-title .price{ font-size: 12px;}
+    .w768{ width: 100%;}
+    .roomInner li{ width: 20%;}
+    .room-nav-list a{ padding: 5px 0px; height: 66px;}
+    .room-nav-list .rico{ width: 40px; height: 40px; background-position:center -5px; transform: scale(0.8); -webkit-transform: scale(0.8);}
+    .room-nav-list a.active .rico{ background-position: center -55px;}
+    .room-nav-list a.noact .rico{ background-position: center -55px;}
+    .roomList .item-T{ top: 5%; height: 95%;}
+    .roomList .item-T .name{ font-size: 14px;}
+    .serTbox .st1{ font-size: 20px;}
+    .serTbox .st2{ font-size: 16px;}
+}
+@media screen and (max-width:641px){
+    .weatherBox{ display: none;}
+    .bybox .by1, .bybox .by2{ font-size: 28px;}
+    .bybox{ width: 180px; height: 180px;}
+    .bybox .boxt-s0{ width: 176px; height: 176px;}
+    .bybox .jz-en{ background-size: cover; width: 38px; height: 58px; right: -70px;}
+    .binbox .jz-zh{ margin-top: 20px;}
+    .mouseIco{ display: none;}
+    .banner .slick-dots{ top: auto; bottom: 3%; left: 0px;}
+    .banner .slick-dots li{ display: inline-block; margin: 0px 5px;}
+    .iproList .item-img{ width: 100%;}
+    .iproList .item-con{ height: auto; right: 20%; bottom: 10%; width: 60%; background-color: rgba(255,255,255,0.8);}
+    .iproList .item-T{ position: relative; top: auto; padding: 15px 0px;}
+    .vb-con .en{ font-size: 28px;}
+    .vb-con .zh{ font-size: 30px;}
+    .vb-con .jz-zh{ font-size: 16px;}
+    .vb-con .vico{ background-size: 80%;}
+    .pagenav.fixed{ position: relative; top: auto !important; z-index: 1;}
+    .pagenav a{ font-size: 14px; padding: 0px; width: 25%; float: left;}
+    .about-name .en{ font-size: 24px;}
+    .about-jz{ font-size: 14px;}
+    .newbanner{ height: 220px;}
+    .ninfoT .title{ font-size: 30px;}
+    .nt-t{ font-size: 20px; padding: 28px 0px 22px;}
+    .tb-con .title{ width: 30px;}
+    .tb-con .ico{ width: 10px; height: 10px; margin-top: -8px; left: -200%;}
+    .tb-con .en{ font-size: 18px; right: -300%; line-height: 1.8;}
+    .tour-T .name{ font-size: 20px;}
+    .tour-T .en1, .tour-T .en2{ font-size: 14px; white-space:inherit; line-height: 1.5; }
+    .tour-T .en1{ right: 200%;}
+    .tour-T .en2{ left: 200%;}
+    .vipList .t{ font-size: 20px;}
+    .vip-t{ width: 140px; height: 140px; margin-left: -70px; line-height: 140px; font-size: 30px; top: -100px;}
+    .vipbanner{ height:140px;}
+    .vip-name .name{ font-size: 24px;}
+    .banner-t .en{ width: 50px;}
+    .explorePage{ padding: 40px 0px 0px;}
+    .explorelist ul{ margin-left: 0;}
+    .explorelist li{ float: none; width: 100%; margin:0px 0px 20px 0;}
+    .explore-imgdemo .slick-arrow{ width: 38px; height: 38px; margin-top: -19px;}
+    .explore-imgdemo .slick-arrow i{ background-size: 15%;}
+    .explore-imgdemo .slick-prev{ left: 1%;}
+    .explore-imgdemo .slick-next{ right: 1%;}
+    .concession-Pimg{ height: 150px;}
+    .concession-page{ margin-top: 0px;}
+    .concession-item .title{ margin-bottom: 0px;}
+    .concession-item .t{ font-weight: normal; font-size: 18px;}
+    .concession-item .by{ font-weight: normal; font-size: 12px;}
+    .concession-item a.immediatelyBtn{ position: relative; right: auto; top: auto; float: none;}
+    .concession-item .con{ padding: 0px 0px 15px; min-height: 0px;}
+    .concession-item .con .c{ display: none;}
+    .concession-item a.moreBtn{ top: -40px;}
+    .lastest-title{ position: relative; left: auto; top: auto; color: #323232; padding: 15px 5%; width: 90%;}
+    .lastest-title .t{ font-size: 18px;}
+    .roomInner li{ width: 25%; font-size: 12px;}
+    .roomList .item-img{ width: 100%;}
+    .roomList .item-con{ width: 100%; position: relative; right: auto; bottom: auto;}
+    .roomList .item-T{ position: relative; top: auto; height: auto; padding: 20px 0px; }
+    .roomList .item-T .name{ width: auto; line-height: 1.2;}
+    .roomList .pro-price{ position: relative; left: auto; bottom: auto;}
+    .room-deom .slick-arrow{ width: 38px; height: 38px; margin-top: -19px;}
+    .room-deom .slick-arrow i{ background-size: 15%;}
+    .room-pageC h3,.ledmore-room .t{ font-size: 18px;}
+    .map{ height: 200px; }
+    .jz-hbox a.mapbtn{ right: 0px;}
+    .jz-map-list li{ width: 95%; float: none; height: auto; margin-bottom: 20px;}
+    .jz-message .banner-t{ position: relative; left: auto; top: auto; width: 90%; height: 130px; margin: 0px auto;}
+    .jz-mess-form a.jx-mbtm{ float: none; margin: 10px 0px; width: 100%;}
+    .servicePage .pageC h3{ font-size: 20px;}
+    .jz-promise-box,.jz-promise-boxT{width: 80%; padding:12px 5%;}
+}
+@media screen and (max-width:481px) {
+    .bge6{ background-color: #fff;}
+    .inewBox{ width: 100%;}
+    .inewBox dd{ margin-top: 0px;}
+    .bybox{ width: 150px; height: 150px;}
+    .bybox .boxt-s0{ width: 146px; height: 146px;}
+    .bybox .by1, .bybox .by2{ font-size: 24px;}
+    .iproBox{ width: 100%;}
+    .iproList .item-img .img{ width: 140%; margin-left: -20%;}
+    .vb-con .en{ font-size: 24px; line-height: 1.8;}
+    .vb-con .zh{ font-size: 26px;}
+    .vb-con .jz-zh{ font-size: 14px;}
+    .newbanner{ height: 180px;}
+    .tb-con .title{ width: 24px;}
+    .tour-Pimg li{ float: left; width: 100%;}
+    .tour-T .en1{ right: 150%;}
+    .tour-T .en2{ left: 150%;}
+    .vipList ul{ margin-left: 0%;}
+    .vipList li{ margin-left:0%; width: 100%; float: none;}
+    .banner-t{ top: 20%;}
+    .banner-t .en{ width: 40px;}
+}
+@media screen and (max-width:421px) {
+    .sider-nav li a{ padding: 0px 15px;}
+    .menu-handler .burger{ left: 15px;}
+    .menu-handler .burger-3{ left: 15px;}
+    .quickBooking-btn .ico{ background-image: none; padding-left: 0px;}
+    .newsList li{ width: 90%; float: none; margin: 0px auto; padding: 0px; margin-bottom: 25px;}
+    .ledmore-room-list{ margin-left: 0px;}
+    .ledmore-room-list li{ float: none; width: 100%; margin-left: 0px;}
+}
+@media screen and (max-width: 375px) {
+    .about-by{ font-size: 12px;}
+    .newsList .con .t{ height: auto; font-size: 14px;}
+}
+@media screen and (max-width: 360px) {
+
+}

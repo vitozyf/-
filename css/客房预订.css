@@ -1,0 +1,234 @@
+.middle {
+    /*padding:120px;*/
+    position: relative;
+    height: 100%;
+    width:100%;
+}
+.middle .banner {
+    position: relative;
+    height: 100%;
+    width:100%;
+    min-height: 350px;
+    overflow: hidden;
+}
+.middle .banner img {
+    position: relative;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    transform: translate(0px, 0px);
+
+}
+.middle .banner-side {
+    position: absolute;
+    top:82%;
+    left:5%;
+}
+.middle .banner-side span {
+    position: absolute;
+    top:0;
+    left:0;
+    float:left;
+    opacity: 0;
+}
+.banner-side span.side-text {
+    width:30px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    top:0;
+    left:110px;
+    line-height: 22px;
+}
+
+.roombox {
+    width:1080px;
+    margin:0 auto;
+    padding:116px 0 62px;
+    /*height:1000px;*/
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.roombox .roomlist {
+    /*width:590px;*/
+    height:280px;
+    margin-bottom:10px;
+    position: relative;
+    overflow: hidden;
+}
+.roomlist .list-left {
+    width:590px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+.roomlist .list-left .shield{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,.3);
+    opacity: 0;
+}
+
+.list-left .shield .details{
+    position: absolute;
+    height: 102px;
+    width: 102px;
+    background: url("../images/f1.png");
+    top:88px;
+    left:205px;
+    text-align: center;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+.shield .details span {
+    display: inline-block;
+    width:18px;
+    color:#CEA872;
+    margin-top:16px;
+    font-weight: bold;
+}
+.list-left .shield .booking{
+    position: absolute;
+    height: 102px;
+    width: 102px;
+    background: url("../images/f2.png");
+    top:88px;
+    left:280px;
+    text-align: center;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+
+.roomlist:hover .details{
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+}
+.roomlist:hover .booking{
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+}
+
+.shield .booking span {
+    display: inline-block;
+    width:18px;
+    color:#FFFFFF;
+    margin-top:16px;
+    font-weight: bold;
+}
+
+.shield .shield-link {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.roomlist .list-right {
+    position: absolute;
+    width:490px;
+    height:100%;
+    right:0;
+    top:0;
+    background: white;
+    z-index: 1;
+}
+.list-right-1 {
+    position: absolute;
+    width:490px;
+    height:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    opacity: 1;
+    background: transparent;
+}
+.list-right-1 h3 {
+    width:30px;
+    height: 80px;
+    color:#323232;
+    font-weight: bold;
+    font-size: 18px;
+    margin:0 auto;
+    text-align: center;
+    padding-top:20px;
+    margin-top:30px;
+    margin-bottom:100px
+}
+
+.list-right-1 p.money {
+    text-align: center;
+}
+.list-right-2 {
+    position: absolute;
+    height: 100%;
+    width:100%;
+    right:50%;
+    background: white;
+    top:0;
+    z-index: -1;
+    opacity: 0;
+    background: transparent;
+}
+.list-right-2 .name {
+    width:18px;
+    color:#7A5339;
+    font-size: 18px;
+    position: absolute;
+    top:80px;
+    right:85px;
+}
+
+.list-right-2 .money-h {
+    position: absolute;
+    top: 72px;
+    left:50px;
+    width:210px;
+    color:#666666;
+}
+
+.list-right-2 .description {
+    position: absolute;
+    left:50px;
+    bottom:90px;
+    width:300px;
+
+}
+
+.list-right-2 .icon {
+    position: absolute;
+    background: url("../images/more_ico2.png");
+    top:125px;
+    right:25px;
+    height: 28px;
+    width: 28px;
+}
+.list-right .price {
+    font-size: 28px;
+    margin: 0 10px;
+    color:#E8C082;
+}
+
+.list-right .list-right-link {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    right:0;
+    z-index: 1;
+}

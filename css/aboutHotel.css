@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/**
+ * Created by Ally on 2017/5/7.
+ */
+/*中间部分*/
+/*宣传视频图片展示begin*/
+#pv_show {
+    width: 100%;
+    height: 900px;
+    /*border: 1px solid blue;*/
+    /*margin: 20px 0 20px 0;*/
+    /*background-color: red;*/
+    position: relative;
+    overflow: hidden;
+
+}
+.video {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2,1.2);
+}
+
+#pv_show img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display:block;
+}
+#pv_show video{
+
+    /*position: relative;*/
+    position: absolute;
+    vertical-align: middle;
+}
+
+/*新闻导航部分s*/
+.news_nav {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    border-top:1px solid #e5e5e5;
+    /*position: absolute;*/
+    position: relative;
+    bottom: 0;
+}
+.news_nav a {
+    display: inline-block;
+    zoom:1;
+    padding:0 35px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size:16px;
+    color:#4d4d4d;
+    font-weight:bold;
+    position: relative;
+}
+.news_nav a i {
+    display: inline-block;
+    width: 0px;
+    height:100%;
+    background-color:#986847;
+    transition: 1s;
+    position: absolute;
+    top:0px;
+    left:50%;
+}
+.news_nav a:hover i, .news_nav a.active i {
+    width:100%;
+    left:0;
+}
+.news_nav a.current {
+    background-color:#986847;
+}
+.news_nav a.current span{
+    color:#FFFFFF;
+}
+.news_nav a span {
+    position: relative;
+    font-size:16px;
+    color:#4D4D4D;
+    z-index:2;
+}
+.news_nav a:hover span, .news_nav a.active span {
+    color: #ffffff;
+}
+/*新闻导航部分e*/
+
+
+/*中部宣传图*/
+
+#slogan_c{
+    height: 540px;
+    /*background-color: pink;*/
+    /*border: 1px solid pink;*/
+    background-size: contain;
+    background: url(../images/abanner0.jpg) no-repeat fixed;
+    overflow: hidden;
+    /*border:1px solid transparent*/
+    position: relative;
+    z-index: 1;
+
+}
+.black-50 {
+    background: url(../images/black_50.png) repeat;
+    background: none rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.about-Pcon {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+}
+.about-y {
+    background: url(../images/y.png) no-repeat;
+    background: none rgba(23,35,76,1);
+    width: 311px;
+    height: 311px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 50px auto;
+    position: relative;
+}
+.about-y .t {
+    font: 26px/1.1 "宋体";
+    width: 26px;
+    margin: 44px auto;
+    position: relative;
+    z-index: 2;
+}
+.about-y .bg {
+    background: url(../images/about_i.png) repeat-x scroll left bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    animation: ic1 4s infinite;
+    -webkit-animation: ic1 4s infinite;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    border-radius: 30%;
+    overflow: hidden;
+}
+
+.about-name {
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.about-name .en {
+    font: 50px/.9 "courier_newregular";
+    text-transform: uppercase;
+    display: block;
+}
+
+.about-name .zh {
+    padding-left: 5px;
+}
+
+.about-jz {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: "courier_newregular";
+    text-transform: uppercase;
+}
+
+.about-by {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 58px;
+}
+
+
+/*中部描述简介*/
+#jianjie {
+    height: 585px;
+    width: 100%;
+    margin: 40px 0 60px 0;
+    /*background-color: skyblue;*/
+    /*border: 1px solid skyblue;*/
+
+
+}
+#des{
+
+}
+.lw{
+    width: 730px;
+    text-align:left;
+    padding: 40px 0 20px 0;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+.pw{
+
+    display: block;
+    width: 730px;
+    /*text-align:center;*/
+    margin: 0 auto;
+    padding:20px 0 20px 0;
+}

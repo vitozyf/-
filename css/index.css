@@ -1,0 +1,333 @@
+.middle-banner {
+    padding-top:100px;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.banner-lunbo {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
+
+.middle-banner-pic {
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.middle-banner-pic .pic-1 {
+    width: 100%;
+    /*height:100%;*/
+    opacity: 0.8;
+    transition: 4000ms ease;
+    transform: scale(1.2);
+}
+.huandong .pic-1 {
+    opacity: 1;
+    transition: 4000ms ease;
+    transform: scale(1);
+}
+
+.middle-banner-pic .binbox {
+    width:90%;
+    position: absolute;
+    left:5%;
+    top:50%;
+    margin-top:-135px;
+    text-align: center;
+    color:white;
+}
+.bybox {
+    width:216px;
+    height:216px;
+    margin:0 auto;
+    position: relative;
+}
+
+.bybox .boxt {
+    width:100%;
+    height:100%;
+    position: relative;
+    /*border-radius: 5px;*/
+    overflow: hidden;
+    left:0px;
+    top:0px;
+    display: block;
+}
+
+.bybox .boxt-s0 {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:212px;
+    height: 212px;
+    border:2px solid #FFFFFF;
+    overflow: hidden;
+}
+
+.boxt-line {
+    background-color: #e60012;
+    position: absolute;
+    z-index: 2;
+}
+.boxt-s1 {
+    width:2px;
+    left:0%;
+    bottom:0;
+    height:0px;
+}
+.boxt-s2 {
+    height: 2px;
+    width: 0px;
+    left:0%;
+    top:0;
+}
+.boxt-s3 {
+    width:2px;
+    top:0;
+    right:0;
+    height: 0px;
+}
+.boxt-s4 {
+    height:2px;
+    right:0;
+    bottom:0;
+    width:0px;
+}
+
+.bybox .jz-ico {
+    background: url("../images/ico.png") no-repeat;
+    width:21px;
+    height:31px;
+    position: absolute;
+    left:-48px;
+    bottom:7%;
+}
+
+.bybox .by1,.bybox .by2 {
+    font-size: 35px;
+    width:42px;
+    line-height: 1;
+    position: absolute;
+    opacity: 1;
+    font-weight: 400;
+    opacity:0;
+}
+.bybox .by1 {
+    top:8px;
+    left:56%;
+}
+
+.bybox .by2{
+    top:38px;
+    left:26%;
+}
+
+.bybox .jz-en {
+    background: url("../images/banner_t.png") no-repeat;
+    width: 48px;
+    height: 75px;
+    position: absolute;
+    right:-84px;
+    top:18%;
+}
+
+.binbox .jz-zh {
+    margin-top:30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.middle-banner .slick-dots {
+    position: absolute;
+    left:3%;
+    top:50%;
+    z-index: 1000;
+}
+.middle-banner .slick-dots li {
+    margin:0 0 10px;
+    position:relative;
+    width: 8px;
+    height: 8px;
+    background: url("../images/banner_n1.png") no-repeat;
+    cursor: pointer;
+}
+
+.slick-dots li.changePic{
+    background: url("../images/banner_n2.png") no-repeat;
+}
+
+.mouseIco {
+    background: url("../images/mouseIco.png") no-repeat;
+    width:25px;
+    height: 25px;
+    position: absolute;
+    left:50%;
+    bottom:8%;
+    margin-left:-12px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.bge6-l {
+    width:33.25%;
+    float:left;
+    background: #EEEEEE;
+    overflow: hidden;
+    position: relative;
+    border-right:1px solid #E6E6E6;
+}
+.bge6-last {
+    border: 0;
+}
+.bge6-l:hover {
+    background: #FFFFFF;
+}
+.bge6-l .describe {
+    height: 46px;
+    line-height: 46px;
+    padding:0 22px;
+    font-size: 14px;
+    color:#323232;
+}
+.bge6-l .describe .more {
+    background: url("../images/more_ico.png");
+    float:right;
+    width:9px;
+    height: 16px;
+    margin-top:15px;
+}
+.bge6-l .beauty {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.bge6-l .beauty .pic-1 {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transition: 1000ms;
+    transform: scale(1);
+}
+.bge6-l:hover .beauty .pic-1 {
+    transition: 1000ms;
+    transform: scale(1.1);
+}
+
+.bge6-l .beauty .name {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    left:100%;
+    bottom:0px;
+    padding:5px 5%;
+    width:90%;
+    background: url("../images/txt_png.png") repeat-x left top;
+    transition: 500ms;
+}
+.bge6-l:hover .beauty .name {
+    left:0%;
+    transition: 500ms;
+}
+.bge6-l .beauty-link {
+    display: block;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+
+.roombox {
+    padding: 60px 0 80px;
+}
+.roombox .roomlist {
+    width:1042px;
+    margin-bottom:3px;
+    height:212px;
+}
+
+
+.roomlist .list-left {
+    width:626px;
+    height:100%;
+}
+.roomlist .list-left img {
+    width:100%;
+    /*height: 100%;*/
+    position: absolute;
+    top:-50px;
+    left:0px;
+}
+.roomlist .list-right {
+    width:416px;
+    height:100%;
+    background-color: #EEEEEE;
+}
+.list-right-1 {
+    width: 100%;
+}
+.roomlist:hover .list-right{
+    background-color: white;
+}
+
+.list-right-1 h3 {
+    width:30px;
+    height: 80px;
+    color:#323232;
+    font-size: 16px;
+    padding-top:0px;
+    margin-top:52px;
+    margin-bottom:24px
+}
+
+.list-right-1 .money {
+font-family: "courier_newregular";
+}
+
+.list-right-2 .name {
+    font-size: 24px;
+    line-height: 26px;
+    top:55px;
+    right:75px;
+    color:#323232;
+    width:26px;
+    height:110px;
+}
+.list-right-2 .money-h {
+    position: absolute;
+    top: 53px;
+    left:42px;
+    width:210px;
+    color:#323232;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.list-right-2 .description {
+    left:42px;
+    top:92px;
+    width:222px;
+    color:#969696;
+    font-size: 14px;
+}
+.list-right-2 .c {
+    font-size:12px;
+}
+.list-right-2 .icon {
+    top:92px;
+}
+.list-right-2 .line {
+    position: absolute;
+    width:24px;
+    border-top: 1px solid #BFBFBF;
+    top:106px;
+    right:116px;
+}

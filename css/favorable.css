@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*头部背景图部分开始*/
+.head {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.head .himgbg {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: -182px;
+    transform : translate(0px, 0px);
+}
+
+/*头部背景图部分结束*/
+
+/*山水图开始*/
+.concession {
+    width: 100%;
+    height: 345px;
+    background: #FFFFFF;
+    position: relative;
+}
+.concession-p {
+    width: 100%;
+    height: 345px;
+    overflow: hidden;
+}
+.concession .concession-p-img {
+    width: 100%;
+    height: 345px;
+}
+.prefer {
+    width: 170px;
+    height: 516px;
+    position: absolute;
+    top: -50%;
+    left: 5%;
+}
+#prefer-img {
+    width: 118px;
+    height: 516px;
+    float: left;
+    margin-top: -80px;
+    display: none;
+}
+#prefer-span {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 84px;
+    margin-left: 32px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin-top: 80px;
+    display: none;
+}
+/*山水图结束*/
+
+/*优惠信息开始*/
+.discount {
+    width: 100%;
+    height: 402px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.discount .landscape-mes {
+    height: 496px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: -118px;
+}
+.discount .landscape-main {
+    height: 135px;
+    width: 100%;
+    border-bottom: 1px solid #DCDCDC;
+}
+.discount .landscape-main .landscape-main-l {
+    line-height: 75px;
+}
+.landscape-mes .landscape-mes-bg {
+    width: 800px;
+    height: 360px;
+    overflow: hidden;
+}
+#landscape-img {
+    transition: all 600ms;
+}
+.landscape-main .landscape-main-l .landscape-main-l-title {
+    color: #646464;
+    font-size: 28px;
+    margin-right: 160px;
+}
+.landscape-main .landscape-main-l span {
+    line-height: 90px;
+}
+.landscape-main .landscape-main-l .landscape-main-detail {
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.landscape-main .landscape-main-r {
+    width: 88px;
+    height: 106px;
+    padding-top: 20px;
+}
+.landscape-main .landscape-main-r a {
+    display: block;
+    height: 46px;
+    width: 100%;
+    line-height: 48px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.landscape-main .landscape-main-r a:hover {
+    background: #313131;
+}
+.landscape-main .landscape-main-r .landscape-main-r-1 {
+    background: #F19149;
+}
+.landscape-main .landscape-main-r .landscape-main-r-2 {
+    background: #17234C;
+}
+/*优惠信息结束*/

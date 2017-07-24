@@ -1,0 +1,217 @@
+@charset "utf-8";
+/*中间广告部分开始*/
+.middle-ad{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.middle-ad-img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.middle-ad-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle-ad-message{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 0px;
+    height: 100%;
+    z-index: 10;
+    text-align: center;
+    color:#FFFFFF;
+    padding-top:120px;
+    transform-style: preserve-3D;
+    animation-name: x-spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes x-spin {
+    0%{
+        transform:rotateX(0deg);
+    }
+    50%{
+        transform:rotateX(180deg);
+    }
+    100%{
+        transform:rotateX(360deg);
+    }
+}
+.middle-message-pone{
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 300px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.middle-message-ptwo{
+    font-size: 70px;
+    line-height: 1.2;
+    /*color:#FFFFFF;*/
+}
+.middle-message-pthree{
+    font-size: 20px;
+    padding: 25px 0px 0px;
+    line-height: 1.2;
+}
+.middle-ad-smallicon{
+    background: url(../images/arrow_ico.png) no-repeat scroll center top;
+    width: 17px;
+    height: 9px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    /*bottom:36px;*/
+    /*top:890px;*/
+    margin-left: -9px;
+    /*opacity:1;*/
+    opacity:0;
+    animation-name: mouse-dot;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+   /*-webkit-animation: mouse-dot 1.5s cubic-bezier(0.23, 1, 0.32, 1) infinite; */
+    /*animation: mouse-dot 1.5s cubic-bezier(0.23, 1, 0.32, 1) infinite;*/
+
+}
+/*@keyframes mouse-dot {*/
+    /*0%{*/
+        /*transform:point() ;*/
+    /*}*/
+/*}*/
+/*中间广告部分结束 会员卡VIPcard部分开始*/
+.vip{
+    background-image: url(../images/vip_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center  bottom;
+    background-color: #FBFBFB;
+    padding: 140px 0px 125px;
+    position: relative;
+    top:0px;
+    left:0px;
+    margin-bottom:150px;
+    width:100%;
+    height: 120px;
+}
+.vip-lh{
+    position: absolute;
+    bottom:-10%;
+    left:50%;
+    margin-left: -200px;
+}
+.vip-message{
+    width: 65%;
+    margin: 0px auto;
+    position: relative;
+}
+.vip-message-title{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:42px;
+    text-align:center;
+}
+.vip-title-card{
+    font-size: 40px;
+    line-height: 1;
+    color: #d0b85a;
+    display: block;
+    margin: 0px auto 12px;
+}
+.vip-title-name{
+    color: #969696;
+    line-height: 1.5;
+}
+/*中间会员卡结束，内容区开始*/
+.cont{
+    width: 80%;
+    padding:0px 135px;
+    margin:0 auto;
+    margin-bottom:140px;
+}
+.cont li{
+    float: left;
+    display: block;
+    width: 24%;
+    margin: 25px 0px 0px 1%;
+    position: relative;
+    transition: 300ms; -webkit-transition: 300ms;
+}
+.cont li:hover {
+    box-shadow: 6px 6px 9px -5px
+    rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
+.cont li:hover h3 {
+    color:#CFA972;
+}
+
+.cont-li-box{
+    background-color: #fff;
+    padding: 30px 8%;
+    height: 180px;
+    position: relative;
+}
+.cont-li-box h3{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.cont-li-box h3:hover{
+    color:#CFA972;
+}
+.cont-li-box p{
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    bottom: 30px;
+    color: #646464;
+    line-height: 1.5;
+    max-height: 105px;
+    overflow: hidden;
+    cursor: pointer;
+}
+/*内容区结束*/
+/*遮盖显示二维码区开始*/
+.coverall{
+    background: none rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    display:none;
+}
+.coverall-box{
+    width: 220px;
+    height: 264px;
+    border: 5px solid #eeeeee;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -115px;
+    z-index: 101;
+}
+.coverall-img{
+    padding: 20px;
+}
+.coverall-mes{
+    padding: 10px 0px;
+    color: #666;
+    font-weight: bold;
+    background: #eeeeee;
+    text-align: center;
+}
